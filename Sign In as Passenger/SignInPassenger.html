@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SignInPassenger </title>
+    <link rel="stylesheet" href="SIPStyle.css">
+
+</head>
+
+<body>
+    <div class = "split left">
+        <div class = "top">
+        <h2 color> Welcome back!</h2>
+        <p> It's been a while since we last saw you! Ready to travel?</p>
+        </div>
+
+        <div class="middle">
+            <br><br>
+            <!-- <label for="email" class = "email"><b>Email</b></label> -->
+            <input type="text" class = "input-box" placeholder="Enter your Email" name="email" required>
+            <br>
+            <!-- <label for="psw" class = "psw"><b>Password</b></label> -->
+            <input type="password" class = "input-box" placeholder="Enter your Password" name="psw" required>
+            <br>
+            <label>
+              <input type="checkbox" unchecked="unchecked" name="remember" class="rmmbr"> Remember me
+            </label>
+        
+            <button class="forgot" onclick="window.location.reload();">Forgot Password</button>
+            
+          </div>
+
+        <div class="bottom">
+            <button type="submit" class="signin"><a href="../PassengerMainPage/PassengerMainPage.html">Sign In</a></button>
+            <br>
+            <p>
+            <span class="signup">First time traveling with us? <a href="../Sign Up as Passenger/SignUpPassenger.html">Sign Up</a></span>
+            <br>
+            <span class="signinpass">Not a passenger? <a href="../Sign In as Driver/SignInDriver.html">Sign In as Driver</a></span>
+            </p>
+        </div>
+                  
+    </div>
+
+
+    <div class="split right">
+        <div class="centered">
+          <img src="passenger_animation.gif" alt="Passenger animation">
+        </div>
+      </div>
+    
+    
+</body>
+</html>

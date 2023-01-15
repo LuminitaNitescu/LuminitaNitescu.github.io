@@ -1,0 +1,135 @@
+.mainpage {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;  
+    bottom: 0;
+    right: 0;
+    background-image: url("../FirstPage/map.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: cursive;
+}
+
+h1 {
+    color: #FF8629;
+    font-size: 40px;
+    padding-top: 40px;
+    margin: 0;
+    -webkit-text-stroke: 2px #002147;
+    text-align: center;
+}
+
+.button {
+    margin-bottom: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 1px solid;
+    text-align: center;
+}
+
+
+.Row{
+    width: 800px;
+    height: 630px;
+    margin: 1% auto; 
+    content: "";
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    color:#002147;
+  }
+
+   
+ img{
+    margin: auto;
+    border-radius: 20%;
+ }
+
+ .left{
+    display: block;
+    float: left;
+    margin-left: -150px;
+    margin-top: 25%;
+ }
+
+.Column1 {
+    width: 250px;
+    height: 450px;
+    box-shadow: 0 0 5px 0 black;
+    background: #FF8629;
+    margin: 1% auto;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    line-height: 30px;
+    text-align: center;
+ }
+
+ .Column2 {
+    width: 250px;
+    height:450px;
+    box-shadow: 0 0 5px 0 black;
+    background: #FF8629;
+    margin: 1% auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 220px;
+    line-height: 30px;
+    border: 0;
+    text-align: center;
+    z-index: 950;
+ }
+
+ .right{
+    display: block;
+    position: relative;
+    float: right;
+    margin-top: 25%;
+    margin-left: 100px;
+    margin-right: -150px;
+ }
+
+ .info, .info2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    -webkit-text-stroke: 0.5px #002147;
+ }
+
+ .info{ 
+    margin-left: -20px; 
+    margin-right: -110px;
+ }
+
+ .info2{
+    z-index: 900;
+    margin-left: 50px;
+    margin-right: -230px;
+ }
+
+ .name, .start, .end, .price  {
+    width: 210px;
+    height: 30px;
+    text-align: center;
+    box-shadow: 0 0 5px 0 black;
+    background: #2876D0;
+    position: relative;
+    float: left;
+    border-radius: 10px;
+    margin-bottom: -3px;
+ }
+
+ 
